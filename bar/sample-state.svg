@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentStyleType="text/css" height="241px" preserveAspectRatio="none" style="width:314px;height:241px;" version="1.1" viewBox="0 0 314 241" width="314px" zoomAndPan="magnify"><defs><style type="text/css"><![CDATA[*.f_222222_dddddd {fill:#222222;}*.f_f1f1f1_070707 {fill:#f1f1f1;}*.s_181818_e7e7e7 {stroke:#181818;}*.f_000000_ffffff {fill:#000000;}*.s_222222_dddddd {stroke:#222222;}*.f_181818_e7e7e7 {fill:#181818;}@media (prefers-color-scheme:dark) {*.f_222222_dddddd {fill:#dddddd;}*.f_f1f1f1_070707 {fill:#070707;}*.s_181818_e7e7e7 {stroke:#e7e7e7;}*.f_000000_ffffff {fill:#ffffff;}*.s_222222_dddddd {stroke:#dddddd;}*.f_181818_e7e7e7 {fill:#e7e7e7;}}]]></style></defs><g><ellipse class="f_222222_dddddd" cx="105.5" cy="16" rx="10" ry="10" style="stroke:none;stroke-width:1.0;"/><g id="State1"><rect class="f_f1f1f1_070707 s_181818_e7e7e7" height="68.8906" rx="12.5" ry="12.5" style="stroke-width:0.5;" width="197" x="7" y="86"/><line class="s_181818_e7e7e7" style="stroke-width:0.5;" x1="7" x2="204" y1="112.2969" y2="112.2969"/><text class="f_000000_ffffff" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="49" x="81" y="103.9951">State1</text><text class="f_000000_ffffff" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="100" x="12" y="130.292">this is a string</text><text class="f_000000_ffffff" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="177" x="12" y="146.5889">this is yet another string</text></g><ellipse class="s_222222_dddddd" cx="189.5" cy="225" fill="none" rx="10" ry="10" style="stroke-width:1.0;"/><ellipse class="f_222222_dddddd" cx="190" cy="225.5" rx="6" ry="6" style="stroke:none;stroke-width:1.0;"/><g id="State2"><rect class="f_f1f1f1_070707 s_181818_e7e7e7" height="50" rx="12.5" ry="12.5" style="stroke-width:0.5;" width="68" x="239.5" y="95.5"/><line class="s_181818_e7e7e7" style="stroke-width:0.5;" x1="239.5" x2="307.5" y1="121.7969" y2="121.7969"/><text class="f_000000_ffffff" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="48" x="249.5" y="113.4951">State2</text></g><!--MD5=[60533a5dc91355c93bf187ba4549d745]
+link *start to State1--><path class="s_181818_e7e7e7" d="M105.5,26.096 C105.5,38.33 105.5,60.845 105.5,80.704 " fill="none" id="*start-to-State1" style="stroke-width:1.0;"/><polygon class="f_181818_e7e7e7 s_181818_e7e7e7" points="105.5,85.955,109.5,76.955,105.5,80.955,101.5,76.955,105.5,85.955" style="stroke-width:1.0;"/><!--MD5=[ca1046a354e184ac9d197a073cc82934]
+link State1 to *end--><path class="s_181818_e7e7e7" d="M133.005,155.0623 C149.309,174.9572 168.935,198.9052 180.239,212.6995 " fill="none" id="State1-to-*end" style="stroke-width:1.0;"/><polygon class="f_181818_e7e7e7 s_181818_e7e7e7" points="183.467,216.6387,180.856,207.1423,180.2977,212.7715,174.6684,212.2132,183.467,216.6387" style="stroke-width:1.0;"/><!--MD5=[dc702cd49c4e27e6abb2620dc4bb28d8]
+link State1 to State2--><path class="s_181818_e7e7e7" d="M204.266,120.5 C214.245,120.5 224.225,120.5 234.205,120.5 " fill="none" id="State1-to-State2" style="stroke-width:1.0;"/><polygon class="f_181818_e7e7e7 s_181818_e7e7e7" points="239.424,120.5,230.424,116.5,234.424,120.5,230.424,124.5,239.424,120.5" style="stroke-width:1.0;"/><!--MD5=[37ebb224bae70bf8df0e6bab9d19d55b]
+link State2 to *end--><path class="s_181818_e7e7e7" d="M253.806,145.5317 C236.608,166.5173 212.38,196.0804 199.114,212.2686 " fill="none" id="State2-to-*end" style="stroke-width:1.0;"/><polygon class="f_181818_e7e7e7 s_181818_e7e7e7" points="195.678,216.4616,204.4766,212.0361,198.8473,212.5944,198.289,206.9652,195.678,216.4616" style="stroke-width:1.0;"/><!--MD5=[4d7d93a02cf3c6cac573b8b4e3a930f8]
+@startuml
+[*] - -> State1
+State1 - -> [*]
+State1 : this is a string
+State1 : this is yet another string
+
+State1 -> State2
+State2 - -> [*]
+@enduml
+
+PlantUML version 1.2022.2beta5(Unknown compile time)
+(GPL source distribution)
+Java Runtime: Java(TM) SE Runtime Environment
+JVM: Java HotSpot(TM) 64-Bit Server VM
+Default Encoding: UTF-8
+Language: en
+Country: US
+--></g></svg>
